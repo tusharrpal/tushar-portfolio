@@ -1,4 +1,4 @@
-import { Mail, Download } from "lucide-react";
+import { Download } from "lucide-react";
 import { profile } from "@/data/portfolio";
 
 function GithubIcon(props: React.SVGProps<SVGSVGElement>) {
@@ -58,8 +58,8 @@ export function Footer() {
             {[
               { href: profile.github, Icon: GithubIcon, label: "GitHub" },
               { href: profile.linkedin, Icon: LinkedinIcon, label: "LinkedIn" },
-              { href: profile.twitter, Icon: TwitterIcon, label: "Twitter" },
-              { href: `mailto:${profile.email}`, Icon: Mail, label: "Email" },
+              { href: profile.instagram, Icon: InstagramIcon, label: "Instagram" },
+              { href: `mailto:${profile.email}`, Icon: GmailIcon, label: "Gmail" },
             ].map(({ href, Icon, label }) => (
               <a
                 key={label}
