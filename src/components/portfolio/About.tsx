@@ -15,7 +15,7 @@ export function About() {
             01 — About
           </p>
           <h2 className="mt-4 font-display text-4xl tracking-tight text-foreground sm:text-5xl">
-            A student who codes like it's a craft.
+            Building software that is clean, practical, and enjoyable to use.
           </h2>
         </motion.div>
 

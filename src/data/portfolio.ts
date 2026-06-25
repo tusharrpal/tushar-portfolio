@@ -4,7 +4,7 @@ import project3 from "@/assets/project-3.jpg";
 
 export const profile = {
   name: "Tushar Pal",
-  role: "Computer Engineering Student • MERN Stack Developer • Java Enthusiast",
+  role: "Computer Engineering Student • Full Stack Developer • Java Enthusiast",
   location: "Pune, India",
   email: "pal.tusharr@gmail.com",
   phone: "+91 9156091227",
@@ -17,11 +17,11 @@ export const profile = {
 export const about = {
   paragraphs: [
     "I'm a third-year Computer Engineering student at KJEI's Trinity Academy of Engineering, Pune (B.E., Class of 2027). I build full-stack web applications with the MERN stack and have a soft spot for clean architecture, REST APIs, and Java.",
-    "I've trained as a Python Full Stack Developer with EYJDS, won the SIH Internal Hackathon 2025, and reached the finals of the national Techathon 3.0 in 2026. I care about thoughtful UI, performant code, and shipping things that actually work.",
+    "Beyond academics, I spend my time strengthening my problem-solving skills through Data Structures & Algorithms, exploring new technologies, and building projects that help me learn through hands-on experience. I value clean architecture, readable code, and the creation of applications that deliver a smooth user experience.",
   ],
   stats: [
     { label: "Graduating", value: "2027" },
-    { label: "Hackathons won", value: "2" },
+    { label: "PROJECTS BUILTT", value: "5+" },
     { label: "Based in", value: "Pune, IN" },
   ],
 };
