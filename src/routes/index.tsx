@@ -1,29 +1,42 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Nav } from "@/components/portfolio/Nav";
+import { Hero } from "@/components/portfolio/Hero";
+import { About } from "@/components/portfolio/About";
+import { Projects } from "@/components/portfolio/Projects";
+import { TechStack } from "@/components/portfolio/TechStack";
+import { Footer } from "@/components/portfolio/Footer";
+import { profile } from "@/data/portfolio";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: `${profile.name} — Full Stack Developer & Java Enthusiast` },
+      {
+        name: "description",
+        content:
+          "Portfolio of a Computer Engineering student and full-stack developer based in Pune, India. Selected projects, tech stack, and résumé.",
+      },
+      { property: "og:title", content: `${profile.name} — Portfolio` },
+      {
+        property: "og:description",
+        content:
+          "Computer Engineering student & full-stack developer building thoughtful web experiences.",
+      },
+      { property: "og:type", content: "website" },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main className="min-h-screen bg-background text-foreground">
+      <Nav />
+      <Hero />
+      <About />
+      <Projects />
+      <TechStack />
+      <Footer />
+    </main>
   );
 }
