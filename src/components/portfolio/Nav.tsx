@@ -31,7 +31,7 @@ export function Nav() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#top" className="font-mono text-sm tracking-tight text-foreground">
           <span className="text-accent">/</span>
-          {profile.name.split(" ")[0].toLowerCase()}
+          {profile.name}
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">

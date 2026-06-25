@@ -3,7 +3,7 @@ import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
 
 export const profile = {
-  name: "Your Name",
+  name: "Tushar Pal",
   role: "Computer Engineering Student • Full Stack Developer • Java Enthusiast",
   location: "Pune, India",
   email: "you@example.com",
