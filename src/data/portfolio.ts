@@ -9,7 +9,7 @@ export const profile = {
   email: "you@example.com",
   github: "https://github.com/yourhandle",
   linkedin: "https://linkedin.com/in/yourhandle",
-  twitter: "https://twitter.com/yourhandle",
+  instagram: "https://instagram.com/yourhandle",
   resumeUrl: "/resume.pdf",
 };
 
