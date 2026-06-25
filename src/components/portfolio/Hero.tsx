@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Download } from "lucide-react";
 import { profile } from "@/data/portfolio";
-import portraitAsset from "@/assets/portrait-rohit.png.asset.json";
+import portraitAsset from "@/assets/portrait-tushar.png.asset.json";
 
 export function Hero() {
   return (
