@@ -13,7 +13,7 @@ export function Hero() {
       <div className="pointer-events-none absolute -top-40 left-1/4 h-[480px] w-[480px] rounded-full bg-accent/15 blur-[120px]" />
       <div className="pointer-events-none absolute bottom-0 right-0 h-[420px] w-[420px] rounded-full bg-[oklch(0.55_0.18_260)]/15 blur-[120px]" />
 
-      <div className="mx-auto grid w-full max-w-6xl items-center gap-10 md:grid-cols-[1.4fr_1fr] md:gap-12">
+      <div className="mx-auto grid w-full max-w-6xl items-center gap-10 md:grid-cols-[1.7fr_1fr] md:gap-12">
         <div className="flex flex-col gap-8">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
@@ -75,7 +75,7 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
-          className="group relative mx-auto w-full max-w-sm md:max-w-none"
+          className="group relative mx-auto w-full max-w-[260px] md:max-w-[320px]"
         >
           <div className="pointer-events-none absolute inset-x-0 bottom-0 -z-10 h-2/3 rounded-full bg-accent/15 blur-3xl transition-all duration-500 group-hover:bg-accent/30 group-hover:blur-[80px]" />
           <img
