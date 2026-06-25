@@ -29,7 +29,7 @@ export function Nav() {
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#top" className="font-mono text-sm tracking-tight text-foreground uppercase">
+        <a href="#top" className="font-mono text-sm tracking-tight text-foreground">
           <span className="text-accent">/</span>
           {profile.name}
         </a>
