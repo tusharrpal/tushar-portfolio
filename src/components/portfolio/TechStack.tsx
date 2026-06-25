@@ -14,7 +14,7 @@ export function TechStack() {
           </h2>
         </div>
 
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {techStack.map((group, gi) => (
             <motion.div
               key={group.group}

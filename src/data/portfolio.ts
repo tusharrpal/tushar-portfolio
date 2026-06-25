@@ -4,68 +4,73 @@ import project3 from "@/assets/project-3.jpg";
 
 export const profile = {
   name: "Tushar Pal",
-  role: "Computer Engineering Student • Full Stack Developer • Java Enthusiast",
+  role: "Computer Engineering Student • MERN Stack Developer • Java Enthusiast",
   location: "Pune, India",
-  email: "you@example.com",
-  github: "https://github.com/yourhandle",
-  linkedin: "https://linkedin.com/in/yourhandle",
-  instagram: "https://instagram.com/yourhandle",
+  email: "pal.tusharr@gmail.com",
+  phone: "+91 9156091227",
+  github: "https://github.com/tusharrpal",
+  linkedin: "https://linkedin.com/in/tushar-pal-978950289",
+  instagram: "https://instagram.com/tusharrpal",
   resumeUrl: "/resume.pdf",
 };
 
 export const about = {
   paragraphs: [
-    "I'm a Computer Engineering student at a Pune-based university, currently pursuing my B.E. (Class of 2027). I build full-stack web applications with a soft spot for clean architecture, fast interfaces, and Java on the backend.",
-    "Outside of coursework I ship side projects, contribute to small open-source tools, and sharpen my skills with DSA in Java. I care about thoughtful UI, performance, and writing code other people can actually read.",
+    "I'm a third-year Computer Engineering student at KJEI's Trinity Academy of Engineering, Pune (B.E., Class of 2027). I build full-stack web applications with the MERN stack and have a soft spot for clean architecture, REST APIs, and Java.",
+    "I've trained as a Python Full Stack Developer with EYJDS, won the SIH Internal Hackathon 2025, and reached the finals of the national Techathon 3.0 in 2026. I care about thoughtful UI, performant code, and shipping things that actually work.",
   ],
   stats: [
-    { label: "Years coding", value: "3+" },
-    { label: "Projects shipped", value: "12" },
+    { label: "Graduating", value: "2027" },
+    { label: "Hackathons won", value: "2" },
     { label: "Based in", value: "Pune, IN" },
   ],
 };
 
 export const projects = [
   {
-    title: "Lumen — Realtime Notes",
+    title: "Real-Time Chat Application",
     description:
-      "Collaborative markdown notes with live cursors, offline sync, and a tiny CRDT engine written from scratch.",
+      "MERN + Socket.io messaging app with JWT auth, online/offline presence, unread tracking, and media sharing over WebSockets.",
     image: project1,
-    tags: ["React", "TypeScript", "WebSockets", "CRDT"],
+    tags: ["MongoDB", "Express", "React", "Node.js", "Socket.io"],
     liveUrl: "#",
-    repoUrl: "#",
+    repoUrl: "https://github.com/tusharrpal",
   },
   {
-    title: "Tally — Personal Finance",
+    title: "AgroControl — Smart Agri Marketplace",
     description:
-      "Mobile-first expense tracker with smart categorization, recurring detection, and end-of-month insights.",
+      "Full-stack e-commerce platform connecting farmers and buyers, with crop management, payments, order tracking, and an admin dashboard.",
     image: project2,
-    tags: ["Next.js", "Postgres", "Tailwind", "tRPC"],
+    tags: ["Django", "JavaScript", "HTML", "CSS", "REST"],
     liveUrl: "#",
-    repoUrl: "#",
+    repoUrl: "https://github.com/tusharrpal",
   },
   {
-    title: "JavaForge — DSA Visualizer",
+    title: "EYJDS Farmer-to-User Platform",
     description:
-      "Interactive data structure and algorithm playground in Java + Spring, with step-through visualizations.",
+      "Python full-stack training project enabling farmers to connect directly with end users. Contributed to backend, database integration, and core features.",
     image: project3,
-    tags: ["Java", "Spring Boot", "D3.js", "Docker"],
+    tags: ["Python", "Full Stack", "Database", "REST"],
     liveUrl: "#",
-    repoUrl: "#",
+    repoUrl: "https://github.com/tusharrpal",
   },
 ];
 
 export const techStack = [
   {
+    group: "Languages",
+    items: ["JavaScript (ES6+)", "Java", "Python", "HTML5", "CSS3"],
+  },
+  {
     group: "Frontend",
-    items: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Framer Motion"],
+    items: ["React.js", "Tailwind CSS", "Responsive Design"],
   },
   {
-    group: "Backend",
-    items: ["Java", "Spring Boot", "Node.js", "PostgreSQL", "REST / GraphQL"],
+    group: "Backend & DB",
+    items: ["Node.js", "Express.js", "REST APIs", "JWT", "MongoDB", "MySQL"],
   },
   {
-    group: "Tools",
-    items: ["Git", "Docker", "Linux", "Figma", "VS Code"],
+    group: "Tools & Core",
+    items: ["Git", "GitHub", "MongoDB Atlas", "DSA", "OOP", "DBMS", "OS"],
   },
 ];
