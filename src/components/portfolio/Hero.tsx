@@ -22,7 +22,7 @@ export function Hero() {
             className="flex items-center gap-2 font-mono text-xs tracking-widest text-muted-foreground uppercase"
           >
             <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-accent" />
-            Open to internships — 2026
+            OPEN TO INTERNSHIPS & FULL-TIME OPPORTUNITIES
           </motion.div>
 
           <motion.h1
@@ -43,8 +43,8 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
             className="max-w-2xl text-base text-muted-foreground sm:text-lg"
           >
-            {profile.role}. Currently studying B.E. Computer Engineering in {profile.location},
-            shipping side projects and learning in public.
+            {profile.role}<br />
+            Computer Engineering student from Pune, India, focused on building scalable web applications, exploring Java, and continuously learning.
           </motion.p>
 
           <motion.div
@@ -66,7 +66,7 @@ export function Hero() {
               className="inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-5 py-3 text-sm font-medium text-foreground transition-colors hover:bg-surface-2"
             >
               <Download className="h-4 w-4" />
-              Download résumé
+              Download Resume
             </a>
           </motion.div>
         </div>
