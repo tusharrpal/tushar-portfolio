@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight, Code2 } from "lucide-react";
+import { ArrowUpRight, Github } from "lucide-react";
 import { projects } from "@/data/portfolio";
 
 export function Projects() {
@@ -66,9 +66,10 @@ export function Projects() {
                     href={p.repoUrl}
                     target="_blank"
                     rel="noreferrer"
+                    aria-label="GitHub repository"
                     className="inline-flex items-center gap-1.5 text-muted-foreground hover:text-foreground"
                   >
-                    <Code2 className="h-3.5 w-3.5" /> Code
+                    <Github className="h-4 w-4" />
                   </a>
                 </div>
               </div>
