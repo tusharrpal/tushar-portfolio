@@ -75,15 +75,15 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.92 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
-          className="relative mx-auto w-full max-w-sm md:max-w-none"
+          className="group relative mx-auto w-full max-w-sm md:max-w-none"
         >
-          <div className="pointer-events-none absolute inset-0 -z-10 rounded-full bg-accent/20 blur-3xl" />
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 -z-10 h-2/3 rounded-full bg-accent/15 blur-3xl transition-all duration-500 group-hover:bg-accent/30 group-hover:blur-[80px]" />
           <img
             src={portraitAsset.url}
             alt={`Portrait of ${profile.name}`}
             width={614}
-            height={711}
-            className="relative h-auto w-full object-contain drop-shadow-2xl"
+            height={1007}
+            className="relative h-auto w-full object-contain transition-transform duration-500 ease-out group-hover:-translate-y-2 group-hover:scale-[1.03] [mask-image:linear-gradient(to_bottom,black_85%,transparent)]"
           />
         </motion.div>
       </div>
