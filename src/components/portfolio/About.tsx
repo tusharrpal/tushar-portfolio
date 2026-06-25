@@ -3,7 +3,7 @@ import { about } from "@/data/portfolio";
 
 export function About() {
   return (
-    <section id="about" className="relative px-6 py-28 sm:py-36">
+    <section id="about" className="relative px-6 py-16 sm:py-20">
       <div className="mx-auto grid max-w-6xl gap-12 md:grid-cols-[1fr_1.4fr] md:gap-16">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

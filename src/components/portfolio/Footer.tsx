@@ -37,7 +37,7 @@ function GmailIcon(props: React.SVGProps<SVGSVGElement>) {
 
 export function Footer() {
   return (
-    <footer id="contact" className="relative border-t border-border px-6 py-20">
+    <footer id="contact" className="relative border-t border-border px-6 py-16">
       <div className="mx-auto max-w-6xl">
         <p className="font-mono text-xs tracking-widest text-accent uppercase">
           04 — Get in touch

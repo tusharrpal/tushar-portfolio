@@ -3,7 +3,7 @@ import { techStack } from "@/data/portfolio";
 
 export function TechStack() {
   return (
-    <section id="stack" className="relative px-6 py-28 sm:py-36">
+    <section id="stack" className="relative px-6 py-16 sm:py-20">
       <div className="mx-auto max-w-6xl">
         <div>
           <p className="font-mono text-xs tracking-widest text-accent uppercase">

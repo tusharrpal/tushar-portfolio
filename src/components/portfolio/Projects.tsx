@@ -4,7 +4,7 @@ import { projects } from "@/data/portfolio";
 
 export function Projects() {
   return (
-    <section id="work" className="relative px-6 py-28 sm:py-36">
+    <section id="work" className="relative px-6 py-16 sm:py-20">
       <div className="mx-auto max-w-6xl">
         <div className="flex items-end justify-between gap-6">
           <div>
