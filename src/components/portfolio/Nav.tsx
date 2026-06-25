@@ -45,12 +45,6 @@ export function Nav() {
             </a>
           ))}
           <a
-            href="#contact"
-            className="inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-accent/50 hover:text-accent"
-          >
-            Connect
-          </a>
-          <a
             href={profile.resumeUrl}
             download
             className="inline-flex items-center gap-2 rounded-full bg-accent px-4 py-2 text-sm font-medium text-accent-foreground transition-transform hover:scale-[1.02]"
