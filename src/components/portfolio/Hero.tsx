@@ -32,9 +32,9 @@ export function Hero() {
             className="font-display text-5xl leading-[0.95] tracking-tight text-foreground sm:text-6xl md:text-7xl"
           >
             {profile.name}.<br />
-            <span className="text-muted-foreground italic">building the web,</span>
+            <span className="text-muted-foreground italic">code. create.</span>
             <br />
-            <span className="text-accent italic">one commit at a time.</span>
+            <span className="text-accent italic">Continue learning.&nbsp;</span>
           </motion.h1>
 
           <motion.p
