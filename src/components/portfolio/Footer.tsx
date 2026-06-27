@@ -74,7 +74,7 @@ export function Footer() {
             ))}
             <a
               href={profile.resumeUrl}
-              download
+              download="Tushar_Pal_Resume.pdf"
               className="ml-3 inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-xs text-foreground hover:border-accent/50 hover:text-accent"
             >
               <Download className="h-3.5 w-3.5" />

@@ -46,7 +46,7 @@ export function Nav() {
           ))}
           <a
             href={profile.resumeUrl}
-            download
+            download="Tushar_Pal_Resume.pdf"
             className="inline-flex items-center gap-2 rounded-full bg-accent px-4 py-2 text-sm font-medium text-accent-foreground transition-transform hover:scale-[1.02]"
           >
             <Download className="h-4 w-4" />
@@ -78,7 +78,7 @@ export function Nav() {
             ))}
             <a
               href={profile.resumeUrl}
-              download
+              download="Tushar_Pal_Resume.pdf"
               onClick={() => setOpen(false)}
               className="mt-2 inline-flex items-center justify-center gap-2 rounded-full bg-accent px-4 py-2 text-sm font-medium text-accent-foreground"
             >

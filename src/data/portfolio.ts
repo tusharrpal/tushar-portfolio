@@ -11,7 +11,7 @@ export const profile = {
   github: "https://github.com/tusharrpal",
   linkedin: "https://linkedin.com/in/tushar-pal-978950289",
   instagram: "https://instagram.com/tusharrpal",
-  resumeUrl: "/resume.pdf",
+  resumeUrl: "/Tushar_Pal_Resume.pdf",
 };
 
 export const about = {

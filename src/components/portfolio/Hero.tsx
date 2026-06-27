@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Download } from "lucide-react";
 import { profile } from "@/data/portfolio";
-import portraitAsset from "@/assets/portrait-tushar.png.asset.json";
+import portraitImage from "@/assets/tushar.png";
 
 export function Hero() {
   return (
     <section
       id="top"
-      className="relative isolate flex min-h-screen items-center overflow-hidden px-6 pt-28 pb-16"
+      className="relative isolate overflow-hidden px-6 pt-28 pb-16"
     >
       {/* glow blobs */}
       <div className="pointer-events-none absolute -top-40 left-1/4 h-[480px] w-[480px] rounded-full bg-accent/15 blur-[120px]" />
@@ -62,7 +62,7 @@ export function Hero() {
             </a>
             <a
               href={profile.resumeUrl}
-              download
+              download="Tushar_Pal_Resume.pdf"
               className="inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-5 py-3 text-sm font-medium text-foreground transition-colors hover:bg-surface-2"
             >
               <Download className="h-4 w-4" />
@@ -72,18 +72,18 @@ export function Hero() {
         </div>
 
         <motion.div
-          initial={{ opacity: 0, scale: 0.92 }}
+          initial={{ opacity: 0, scale: 0.98 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
-          className="group relative mx-auto w-full max-w-[260px] md:max-w-[320px]"
+          className="group relative mx-auto w-full max-w-[340px] md:max-w-[420px] lg:max-w-[460px]"
         >
           <div className="pointer-events-none absolute inset-x-0 bottom-0 -z-10 h-2/3 rounded-full bg-accent/15 blur-3xl transition-all duration-500 group-hover:bg-accent/30 group-hover:blur-[80px]" />
           <img
-            src={portraitAsset.url}
+            src={portraitImage}
             alt={`Portrait of ${profile.name}`}
             width={614}
             height={1007}
-            className="relative h-auto w-full object-contain transition-transform duration-500 ease-out group-hover:-translate-y-2 group-hover:scale-[1.03] [mask-image:linear-gradient(to_bottom,black_85%,transparent)]"
+            className="relative h-auto w-full object-contain transition-transform duration-500 ease-out group-hover:scale-[1.08] [mask-image:linear-gradient(to_bottom,black_85%,transparent)]"
           />
         </motion.div>
       </div>

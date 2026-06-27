@@ -10,7 +10,6 @@ import {
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
-import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
   return (
@@ -37,9 +36,6 @@ function NotFoundComponent() {
 function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   console.error(error);
   const router = useRouter();
-  useEffect(() => {
-    reportLovableError(error, { boundary: "tanstack_root_error_component" });
-  }, [error]);
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -79,12 +75,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Tushar Pal | Building the Web, One Commit at a Time" },
       { name: "description", content: "My Digital Showcase is a modern, dark-themed personal portfolio website to display projects and professional information." },
-      { name: "author", content: "Lovable" },
       { property: "og:title", content: "Tushar Pal | Building the Web, One Commit at a Time" },
       { property: "og:description", content: "My Digital Showcase is a modern, dark-themed personal portfolio website to display projects and professional information." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Tushar Pal | Building the Web, One Commit at a Time" },
       { name: "twitter:description", content: "My Digital Showcase is a modern, dark-themed personal portfolio website to display projects and professional information." },
       { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/A8htNnUGG7MQgQNBavDzXFAIQSh1/social-images/social-1782412855805-IMG_20260625_233853.webp" },
